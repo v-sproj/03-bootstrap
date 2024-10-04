@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
     <div class="container">
       <a class="navbar-brand" href="#">Filmotopia</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -38,9 +38,10 @@
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/Slider.png" class="d-block w-100" alt="...">
+          <img src="images/Slider.png" class="d-block w-100 d-none d-sm-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="bg-primary fs-1">Kočky a psi</h1>
+            <h1 class="bg-primary fw-normal d-inline-flex py-2 px-4 display-4" style="max-width: fit-content;">Kočky a psi
+            </h1>
             <p>Slider s nejnovějšími filmovými novinkami!</p>
           </div>
         </div>
@@ -59,7 +60,7 @@
       </div>
 
       <div class="cards-section">
-        <h2 class="pt-4 pb-4">Na co se vydat do kina</h2>
+        <h2 class="pt-4 pb-4 fw-bolder">Na co se vydat do kina</h2>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -67,7 +68,8 @@
               <img src="images/obr6.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Wall-E</h5>
-                <p class="card-text">Dechberoucí příběh o jednom malém robotovi, který se rozhodl zachránit svět.</p>
+                <p class="card-text d-none d-xxl-block">Dechberoucí příběh o jednom malém robotovi, který se rozhodl
+                  zachránit svět.</p>
                 <a href="#" class="btn btn-primary">Více o filmu</a>
               </div>
             </div>
@@ -78,7 +80,8 @@
               <img src="images/obr1.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Hra</h5>
-                <p class="card-text">Jaký dar dát člověku, který má všechno? Možná strach o vlastní život, který mu
+                <p class="card-text d-none d-xxl-block">Jaký dar dát člověku, který má všechno? Možná strach o vlastní
+                  život, který mu
                   změní svět.</p>
                 <a href="#" class="btn btn-primary">Více o filmu</a>
               </div>
@@ -90,7 +93,8 @@
               <img src="images/obr2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Policajt ze školky</h5>
-                <p class="card-text">Arnold Schwarzenegger ve své životní roli, kdo myslíte, že vyhraje?</p>
+                <p class="card-text d-none d-xxl-block">Arnold Schwarzenegger ve své životní roli, kdo myslíte, že
+                  vyhraje?</p>
                 <a href="#" class="btn btn-primary">Více o filmu</a>
               </div>
             </div>
@@ -101,7 +105,8 @@
               <img src="images/obr3.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Mýval Miloš</h5>
-                <p class="card-text">Dojemný příběh o učiteli, který nevěděl kdy přestat. Nakonec našel lásku.</p>
+                <p class="card-text d-none d-xxl-block">Dojemný příběh o učiteli, který nevěděl kdy přestat. Nakonec
+                  našel lásku.</p>
                 <a href="#" class="btn btn-primary">Více o filmu</a>
               </div>
             </div>
@@ -112,7 +117,8 @@
               <img src="images/obr4.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Barevná smršť</h5>
-                <p class="card-text">Kdo je to grafik a proč by nás měl zajímat? Jeden student oboru grafika se vydal na
+                <p class="card-text d-none d-xxl-block">Kdo je to grafik a proč by nás měl zajímat? Jeden student oboru
+                  grafika se vydal na
                   cestu zla.</p>
                 <a href="#" class="btn btn-primary">Více o filmu</a>
               </div>
@@ -124,7 +130,8 @@
               <img src="images/obr5.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Utíkej jako o život</h5>
-                <p class="card-text">Může špatný design způsobit psychickou újmu? Existuje něco jako příliš mnoho barev?
+                <p class="card-text d-none d-xxl-block">Může špatný design způsobit psychickou újmu? Existuje něco jako
+                  příliš mnoho barev?
                 </p>
                 <a href="#" class="btn btn-primary">Více o filmu</a>
               </div>
@@ -136,13 +143,13 @@
     </div>
 
     <div class="reviews-section">
-      <h2 class="pb-4 pt-4">Nejnovější recenze našich kritiků</h2>
+      <h2 class="pb-4 pt-4 fw-bolder">Nejnovější recenze našich kritiků</h2>
     </div>
 
-    <div class="form-section">
-      <h2 class="pb-4 pt-4">Chcete se stát naším kritikem? Napište nám!</h2>
+    <div class="form-section row pb-4">
+      <h2 class="pb-4 pt-4 fw-bolder">Chcete se stát naším kritikem? Napište nám!</h2>
 
-      <form>
+      <form class="col-md-mx col-xxl-6">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Vaše e-mailová adresa</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -150,7 +157,7 @@
         </div>
 
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Vaše jméno</label>
+          <label for="exampleInputName1" class="form-label">Vaše jméno</label>
           <input type="text" class="form-control" id="exampleInputName1" placeholder="Ricky Martin">
         </div>
 
@@ -167,13 +174,28 @@
 
         <button type="submit" class="btn btn-primary">Odeslat</button>
       </form>
+
+      <div class="card border-dark border col-md-3 d-none d-xxl-block"
+        style="max-width: 18rem; max-height: fit-content;">
+        <div class="card-header fw-bold">Zajímává vás něco dalšího?</div>
+        <div class="card-body">
+          <p class="card-text">Toto a mnohem víc se dozvíte,
+            když kontaktujete naše oddělení
+            pro styk s veřejností na
+            veřejnost@filmotopie.cz</p>
+        </div>
+      </div>
+
+
     </div>
 
     <footer class="text-center bg-secondary text-white mt-4">
       <div class="footer">
-        <p class="p-3" style="margin-bottom: 0; padding-bottom: 0;">Tuto práci vypracovala Valérie Šprojcarová, 2.G, datum</p>
+        <p class="p-3" style="margin-bottom: 0; padding-bottom: 0;">Tuto práci vypracovala Valérie Šprojcarová, 2.G,
+          datum</p>
       </div>
     </footer>
+
 
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
